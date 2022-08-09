@@ -30,7 +30,6 @@ public class BallMockTest {
         assertThat(ball.checkReasonOfDefeat("013")).isEqualTo("2스트라이크");
         assertThat(ball.checkReasonOfDefeat("901")).isEqualTo("3볼");
         assertThat(ball.checkReasonOfDefeat("091")).isEqualTo("2볼 1스트라이크");
-        // 아래는 실제로는 실행되지 않는 경우 (determinVictory() false일 경우만 실행)
         assertThat(ball.checkReasonOfDefeat("019")).isEqualTo("3스트라이크");
     }
 
