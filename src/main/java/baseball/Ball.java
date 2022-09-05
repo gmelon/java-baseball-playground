@@ -1,5 +1,6 @@
 package baseball;
 
+import baseball.status.BallStatus;
 import java.util.Objects;
 
 public class Ball {

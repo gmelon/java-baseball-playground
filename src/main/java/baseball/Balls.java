@@ -1,5 +1,7 @@
 package baseball;
 
+import baseball.status.BallStatus;
+import baseball.status.PlayStatus;
 import java.util.ArrayList;
 import java.util.List;
 
