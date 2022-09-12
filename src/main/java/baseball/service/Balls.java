@@ -1,4 +1,4 @@
-package baseball;
+package baseball.service;
 
 import baseball.status.BallStatus;
 import baseball.status.PlayStatus;
@@ -41,4 +41,5 @@ public class Balls {
     public List<Ball> getBalls() {
         return balls;
     }
+
 }

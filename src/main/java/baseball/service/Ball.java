@@ -1,4 +1,4 @@
-package baseball;
+package baseball.service;
 
 import baseball.status.BallStatus;
 import java.util.Objects;

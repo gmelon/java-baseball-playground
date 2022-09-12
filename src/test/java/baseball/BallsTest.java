@@ -2,6 +2,7 @@ package baseball;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import baseball.service.Balls;
 import baseball.status.PlayStatus;
 import java.util.Arrays;
 import org.junit.jupiter.api.BeforeEach;

@@ -3,6 +3,7 @@ package baseball;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+import baseball.service.BallNumber;
 import org.junit.jupiter.api.Test;
 
 class BallNumberTest {
